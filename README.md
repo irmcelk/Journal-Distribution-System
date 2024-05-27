@@ -6,8 +6,7 @@ year but it can begin in any month. For example, a subscription may begin in Mar
 that it will end in February 2024 (inclusive). The ISSN is a unique identifier of a journal. The frequency of 
 a journal denotes how many issues are published within a year. Each journal has an issue price but 
 subscribers can be granted a discount ratio. 
-
-Additional Information: 
+ 
 addSubscription method: A subscription for a non-existent subscriber or journal must not be created. 
 If a subscription object for the given subscriber and journal exists, its copies field will be increased by 
 one in this method. 
